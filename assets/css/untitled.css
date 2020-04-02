@@ -1,0 +1,50 @@
+#mainNav.navbar-shrink {
+  background-color: #0F1923;
+  color: #FF4655;
+}
+
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+  color: white;
+}
+
+#mainNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+  color: #FF4655;
+}
+
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #FF4655;
+}
+
+.navbar navbar-light navbar-expand-lg fixed-top {
+  background-color: #0F1923;
+  color: #FF4655;
+}
+
+.nav-item:hover {
+  font-size: 20px;
+  color: #FF4655;
+}
+
+nav#mainNav.navbar navbar-light navbar-expand-lg fixed-top {
+  background-color: #0F1923;
+  color: #FF4655;
+}
+
+#mainNav {
+  background-color: #0F1923;
+  border-bottom: 1px solid rgba(33,37,41,.1);
+  transition: all .2s;
+}
+
+.bg-primary {
+  background-color: #0F1923!important;
+}
+
+.btn.btn-primary.visible.btn-circle:hover {
+  background-color: #FF4655!important;
+}
+
+.btn.btn-link.btn-circle:hover {
+  background-color: #FF4655!important;
+}
+
