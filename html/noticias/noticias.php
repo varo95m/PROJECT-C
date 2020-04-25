@@ -53,7 +53,7 @@
     				<li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="agentes.html" style="color: #ffffff;font-size: 18px;">AGENTES</a></li>
     				<li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="font-size: 18px;color: #ffffff;">ARMAS</a></li>
     				<li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio" style="font-size: 18px;color: #ffffff;">NOTICIAS</a></li>
-    				<li id="iniciarSesion" class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio" style="font-size: 18px;color: #ffffff;">INICIAR SESIÓN</a>
+    				<li  class="nav-item" role="presentation"><a id="iniciarSesion" class="nav-link js-scroll-trigger" href="#portfolio" style="font-size: 18px;color: #ffffff;">INICIAR SESIÓN</a>
     					<div id="iniciarSesionBox" style=" margin-left: -90;margin-top: 8; border:solid 1px rgba(104,110,115); padding: 10px; color: #FF4655">
     						<form enctype="multipart/form-data" action="redactores.php" method="POST" style="font-size: 15px">
     							<p style="margin-bottom: 0">Usuario</p>
