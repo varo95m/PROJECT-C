@@ -1,3 +1,13 @@
+
+$('#iniciarSesion').on('click', function(e){
+	$('#iniciarSesionBox').toggle();
+});
+
+$('#close').on('click', function(e){
+	$('#iniciarSesionBox').toggle();
+
+});
+
 var card = document.querySelector('#viper');
 card.addEventListener( 'mouseover', function() {
 	viper.classList.toggle('is-flipped');
