@@ -7,7 +7,7 @@
     <title>Untitled</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
     <link rel="stylesheet" href="../../assets/fonts/fontawesome-all.min.css">
@@ -21,61 +21,82 @@
     <link rel="stylesheet" href="../../assets/css/Video-Responsive-YouTube.css">
 </head>
 
-<body style="/*width: 0px;*/">
+<body>
  <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="display: block">
-    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">VALORANT ESPAÑOL</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="html/agentes/agentes.html" style="color: #ffffff;font-size: 18px;">AGENTES</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="font-size: 18px;color: #ffffff;">ARMAS</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio" style="font-size: 18px;color: #ffffff;">NOTICIAS</a></li>
-            </ul>
-        </div>
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">VALORANT ESPAÑOL</a>
+        <button data-toggle="collapse" data-target="#navbarResponsive" 
+        class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa fa-align-justify"></i>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="agentes.html" style="color: #ffffff;font-size: 18px;">AGENTES</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#services" style="font-size: 18px;color: #ffffff;">ARMAS</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#portfolio" style="font-size: 18px;color: #ffffff;">NOTICIAS</a></li>
+        </ul>
     </div>
+</div>
 </nav>
 <header class="masthead text-center text-white d-flex" style="height: 888px;background-color:#0F1923 ">
-    <div class="container my-auto center">
-        <div class="card-group scene">
-            <div class="card2" id="viper">
-                <div class="card_face card_face_front" style="background:url(assets/img/viper.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/viper.png); background-size: cover;"></div>
-            </div>
-            <div class="card2" id="sova">
-                <div class="card_face card_face_front" style="background:url(assets/img/sova.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/sova.png); background-size: cover;"></div>
-            </div>
-            <div class="card2" id="cypher">
-                <div class="card_face card_face_front" style="background:url(assets/img/cypher.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/cypher.png); background-size: cover;"></div>
-            </div>
+    <div style="width: 100%; margin-top: 100px">
+        <div>
+            <h1>¿A quien eliges?</h1>
         </div>
-        <div class="card-group scene">
-            <div class="card2" id="sage">
-                <div class="card_face card_face_front" style="background:url(assets/img/sage.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/sage.png); background-size: cover;"></div>
+        <div class="center">
+            <div class="card-group scene">
+                <a href="agent.php?a=1"><div class="card2" id="viper">
+                    <div class="card_face card_face_front" style="background:url(assets/img/viper.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/viper.png); background-size: cover;"></div>
+                </div></a>
+                <a href="agent.php?a=1"><div class="card2" id="sova">
+                    <div class="card_face card_face_front" style="background:url(assets/img/sova.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/sova.png); background-size: cover;"></div>
+                </div></a>
+                <a href="agent.php?a=1"><div class="card2" id="cypher">
+                    <div class="card_face card_face_front" style="background:url(assets/img/cypher.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/cypher.png); background-size: cover;"></div>
+                </div></a>
             </div>
-            <div class="card2" id="phoenix">
-                <div class="card_face card_face_front" style="background:url(assets/img/phoenix.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/phoenix.png); background-size: cover;"></div>
+            <div class="card-group scene">
+                <a href="agent.php?a=1"><div class="card2" id="sage">
+                    <div class="card_face card_face_front" style="background:url(assets/img/sage.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/sage.png); background-size: cover;"></div>
+                </div></a>
+                <a href="agent.php?a=1"><div class="card2" id="phoenix">
+                    <div class="card_face card_face_front" style="background:url(assets/img/phoenix.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/phoenix.png); background-size: cover;"></div>
+                </div></a>
+                <a href="agent.php?a=1"><div class="card2" id="omen">
+                    <div class="card_face card_face_front" style="background:url(assets/img/omen.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/omen.png); background-size: cover;"></div>
+                </div></a>
             </div>
-            <div class="card2" id="omen">
-                <div class="card_face card_face_front" style="background:url(assets/img/omen.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/omen.png); background-size: cover;"></div>
+            <div class="card-group scene">
+                <a href="agent.php?a=1"><div class="card2" id="jett">
+                    <div class="card_face card_face_front" style="background:url(assets/img/jett.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/jett.png); background-size: cover;"></div>
+                </div></a>
+                <a href="agent.php?a=1"><div class="card2" id="brimstone">
+                    <div class="card_face card_face_front" style="background:url(assets/img/brimstone.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/brimstone.png); background-size: cover;"></div>
+                </div></a>
+                <a href="agent.php?a=1"><div class="card2" id="breach">
+                    <div class="card_face card_face_front" style="background:url(assets/img/breach.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/breach.png);  background-size:cover;"></div>
+                </div></a>
             </div>
-        </div>
-        <div class="card-group scene">
-            <div class="card2" id="jett">
-                <div class="card_face card_face_front" style="background:url(assets/img/jett.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/jett.png); background-size: cover;"></div>
-            </div>
-            <div class="card2" id="brimstone">
-                <div class="card_face card_face_front" style="background:url(assets/img/brimstone.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/brimstone.png); background-size: cover;"></div>
-            </div>
-            <div class="card2" id="breach">
-                <div class="card_face card_face_front" style="background:url(assets/img/breach.jpg); background-size: cover;"></div>
-                <div class="card_face card_face_back" style="background:url(assets/img/breach.png);  background-size:cover;"></div>
+            <div class="card-group scene">
+                <div class="card2">
+
+                </div>
+                <a href="agent.php?a=1"><div class="card2" id="raze">
+                    <div class="card_face card_face_front" style="background:url(assets/img/raze.jpg); background-size: cover;"></div>
+                    <div class="card_face card_face_back" style="background:url(assets/img/raze.png); background-size: cover;"></div>
+                </div></a>
+                <div class="card2">
+                </div>
             </div>
         </div>
     </div>
@@ -93,8 +114,8 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/javascript.js"></script>
 </body>
 
