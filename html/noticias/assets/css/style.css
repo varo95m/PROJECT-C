@@ -19,14 +19,13 @@
     font-weight: bold;
 }
 .descripcionNoticia{
-    width: 80%;
-    margin: auto;
+    width: 90%;
     text-align: left;
     padding-bottom:20px;
+    margin-left: 40px;
 }
 #tituloNoticia{
     font-size:20px;
-
     padding-top: 20px;
 }
 #menuNoticias{
@@ -57,9 +56,10 @@
 }
 
 #leftColNot{
-    width: 72%;
-    margin-right: 50px;
+    width: 62%;
+    margin-left: 50px;
     height: 100%;
+    margin-right: 10px;
 }
 #menuNot{
     min-width: 1200px;
@@ -73,6 +73,14 @@
     font-size: 30px;
     margin: 15px auto;
     text-decoration: underline;
+}
+.dateNew{
+    color: #FF4655;
+    margin-left: 40px;
+}
+.titleNew{
+    color: white;
+    text-align: center;
 }
 
 button {

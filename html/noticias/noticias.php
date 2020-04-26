@@ -39,7 +39,7 @@
         <meta name="twitter:image:src" content="<?php //print "https://tftesp.com/fotos_head/" . $fila['foto'];?>">
         ?>-->
     </head>
-    <body style="background-color:#0F1923">
+    <body style="background-image:url('1.jpg');background-size: cover;">
     	<nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav" style="display: block">
     		<div class="container">
     			<a class="navbar-brand js-scroll-trigger" href="#page-top">VALORANT ESPAÑOL</a>
@@ -68,58 +68,69 @@
     		</div>
     	</div>
     </nav>
-    <header class=" text-center text-white d-flex" style="margin-top: 100px">
+    <header class=" text-center text-white d-flex" style="margin-top: 100px;">
     	<div id="menuNot">
     		<div style="display: flex;">
     			<div id="leftColNot">
-    				<div
-    				>
-    				<div style="width: 100%;text-align: center">
-    					<!--<img src="fotos_noticias/<?php //print ($fila['foto']);?>" />-->
-    					<img style="width: 80%" src="assets/img/1.jpg" />
-    					<div id="tituloNoticia">
-    						<?php 
-    						print ('<h1 style="color:white">"' . $fila['titular'] . '"</h1>'); 
-    						echo "<font style='color: white'>Por <b>" . $fila['escritor'] ."</b>, " . $fila['fecha'] ."</font>";
-    						?>
-    					</div>
-    					<?php $arr = explode(PHP_EOL,$fila['noticia']);
-    					echo 
-    					"
-    					<div class='descripcionNoticia'>";
-    					$noticia = str_replace("[b]", "<b>", $fila['noticia']);
-    					$noticia = str_replace("[/b]", "</b>", $noticia);
-    					$noticia = str_replace("[u]", "<u>", $noticia);
-    					$noticia = str_replace("[/u]", "</u>", $noticia);
-    					$noticia = str_replace("[i]", "<i>", $noticia);
-    					$noticia = str_replace("[/i]", "</i>", $noticia);
-    					$noticia = str_replace("[img][center]", "[center][img]", $noticia);
-    					$noticia = str_replace("[/center][/img]", "[/img][/center]", $noticia);
-    					$noticia = str_replace("[img][left]", "[left][img]", $noticia);
-    					$noticia = str_replace("[/left][/img]", "[/img][/left]", $noticia);
-    					$noticia = str_replace("[img][right]", "[right][img]", $noticia);
-    					$noticia = str_replace("[/right][/img]", "[/img][/right]", $noticia);
-    					$noticia = str_replace("[left]", "<div style='text-align:left'>", $noticia);
-    					$noticia = str_replace("[/left]", "</div>", $noticia);
-    					$noticia = str_replace("[right]", "<div style='text-align:right'>", $noticia);
-    					$noticia = str_replace("[/right]", "</div>", $noticia);
-    					$noticia = str_replace("[center]", "<div style='text-align:center'>", $noticia);
-    					$noticia = str_replace("[/center]", "</div>", $noticia);
-    					$noticia = str_replace("[link]", "<a src='", $noticia);
-    					$noticia = str_replace("[/link]", "'></a>", $noticia);
-    					$noticia = str_replace("[img]", "<img style='max-width:100%;'src='", $noticia);
-    					$noticia = str_replace("[/img]", "'/>", $noticia);
-    					$noticia = str_replace("[title]", "<div class='titularNoticias'>
-    						", $noticia);
-    					$noticia = str_replace("[/title]", "</div>", $noticia);
-    					print($noticia . "</div>");
-    					?>
-    				</div>
-    			</div>
-    		</div>
-    		<div>
-    		</div>
-    	</div>
+    				<div>
+                        <div style="width: 100%;text-align: left">
+                           <!--<img src="fotos_noticias/<?php //print ($fila['foto']);?>" />-->
+                           <div style="width: 100%;text-align: center;">
+                               <img style="width: 90%" src="1.jpg" />
+                           </div>
+                           <div id="tituloNoticia">
+                              <?php 
+                              print ('<h1 class="titleNew" style="color:white">' . $fila['titular'] . '</h1>');
+                              print('<p class="dateNew">' . $fila['fecha'] . '</p>');
+                              ?>
+                          </div>
+                          <?php $arr = explode(PHP_EOL,$fila['noticia']);
+                          echo 
+                          "
+                          <div class='descripcionNoticia'>";
+                          $noticia = str_replace("[b]", "<b>", $fila['noticia']);
+                          $noticia = str_replace("[/b]", "</b>", $noticia);
+                          $noticia = str_replace("[u]", "<u>", $noticia);
+                          $noticia = str_replace("[/u]", "</u>", $noticia);
+                          $noticia = str_replace("[i]", "<i>", $noticia);
+                          $noticia = str_replace("[/i]", "</i>", $noticia);
+                          $noticia = str_replace("[img][center]", "[center][img]", $noticia);
+                          $noticia = str_replace("[/center][/img]", "[/img][/center]", $noticia);
+                          $noticia = str_replace("[img][left]", "[left][img]", $noticia);
+                          $noticia = str_replace("[/left][/img]", "[/img][/left]", $noticia);
+                          $noticia = str_replace("[img][right]", "[right][img]", $noticia);
+                          $noticia = str_replace("[/right][/img]", "[/img][/right]", $noticia);
+                          $noticia = str_replace("[left]", "<div style='text-align:left'>", $noticia);
+                          $noticia = str_replace("[/left]", "</div>", $noticia);
+                          $noticia = str_replace("[right]", "<div style='text-align:right'>", $noticia);
+                          $noticia = str_replace("[/right]", "</div>", $noticia);
+                          $noticia = str_replace("[center]", "<div style='text-align:center'>", $noticia);
+                          $noticia = str_replace("[/center]", "</div>", $noticia);
+                          $noticia = str_replace("[link]", "<a src='", $noticia);
+                          $noticia = str_replace("[/link]", "'></a>", $noticia);
+                          $noticia = str_replace("[img]", "<img style='max-width:100%;'src='", $noticia);
+                          $noticia = str_replace("[/img]", "'/>", $noticia);
+                          $noticia = str_replace("[title]", "<div class='titularNoticias'>
+                              ", $noticia);
+                          $noticia = str_replace("[/title]", "</div>", $noticia);
+                          print($noticia . "</div>");
+                          ?>
+                      </div>
+                  </div>
+              </div>
+              <div style="border: solid white 1px;">
+              </div>
+              <div style="margin-left: 50px; margin-top: 70px;width: 35%">
+                <div style="margin-top: 20px; width: 300px; height: 200px; border: solid 1px white">
+                </div>
+                <div style="margin-top: 20px;width: 300px; height: 200px; border: solid 1px white">
+                </div>
+                <div style="margin-top: 20px;width: 300px; height: 200px; border: solid 1px white">
+                </div>
+                <div style="margin-top: 20px;width: 300px; height: 200px; border: solid 1px white">
+                </div>
+            </div>
+        </div>
     </div>
 </header>
 <footer id="footerpad" style="background-color: #0F1923;">
