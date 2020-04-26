@@ -32,7 +32,7 @@ nav#mainNav.navbar navbar-light navbar-expand-lg fixed-top {
 
 #mainNav {
   background-color: #0F1923;
-  border-bottom: 1px solid rgba(104,110,115);
+  border-bottom: 1px solid rgba(33,37,41,.1);
   transition: all .2s;
 }
 
@@ -46,5 +46,49 @@ nav#mainNav.navbar navbar-light navbar-expand-lg fixed-top {
 
 .btn.btn-link.btn-circle:hover {
   background-color: #FF4655!important;
+}
+
+.text-white {
+  color: rgb(255,112,9)!important;
+}
+
+#mainNav {
+  border-bottom: 2px solid #FF4655;
+  /*background-color: #fff;*/
+  transition: all .2s;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #FF4655;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #FF4655;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #FF4655;
+}
+
+a, a:hover {
+  color: #FF4655;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: #FF4655;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: color: #FF4655;
+  color: #FF4655;
+}
+
+#mainNav .navbar-brand {
+}
+
+#mainNav .navbar-brand {
+  color: #FF4655;
 }
 
