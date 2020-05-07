@@ -1,0 +1,122 @@
+body{
+	background-image:url('/project-C/assets/img/fondo.jpg');
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+.forgetPassword{
+	font-size: 10px;
+	text-transform: lowercase;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.forgetPassword:first-letter{
+	text-transform: uppercase;
+}
+.center{
+	width: 100%; 
+}
+.image-header{
+	width: 100%; 
+	height: 300px; 
+	background-image: url('/project-C/assets/img/fondo-body.png');
+	background-size: cover; margin: auto;
+}
+.sub-navbar{
+	width: 100%;
+	background-color:#0F1923;
+	border-bottom: solid 1px grey;
+	border-top: solid 1px grey;
+	height: 50px; 
+	margin: auto; 
+	margin-bottom: 20px;
+}
+.sub-navbar-container{
+	width: 1100px;
+	text-align: left;
+	margin: auto;
+}
+.sub-navbar-item{
+	text-align: center;
+	width: 15%; 
+	padding-top: 15px;
+	display: inline-block;
+}
+
+.sub-navbar-item-selected{
+	background-color: #FF4655;
+}
+.sub-navbar-item-selector{
+	width: 100%; 
+	height: 5px;
+	margin-top:5px;
+}
+.page-container{
+	margin: auto; 
+	width: 1100px;
+}
+.page-container-navbar{
+	background-color: #181818;
+	color: black;
+	width: 70%;
+	margin-right: 30px ;
+	border:solid 1px white;
+	height:50px; 
+	display: flex;
+}
+.page-container-navbar a{
+	color: white;
+}
+.page-container-navbar-item{
+	width: 33%;
+	line-height: 50px;
+	border-right: solid 1px grey;
+}
+.page-container-navbar-item-last{
+	width: 33%;
+	line-height: 50px;
+}
+.page-container-navbar-selected{
+	background: #AFAFAF;
+	color: white;
+}
+.sub-container{
+	margin-top: 10px; 
+	display: flex; 
+	width: 100%;
+}
+.table-left{
+	border: solid 1px;
+	width: 70%;
+}
+.table-left-header{
+	height: 55px;
+	background-color: #212841;
+	color: white; 
+	border-bottom: solid 1px;
+	padding: 7px;
+	text-align: center;
+}
+.table-left-container{
+	background-color: #181818;
+	color: white; 
+	border-bottom: solid 1px; 
+	padding: 7px;
+	padding-left: 30px;
+	text-align: center;
+	display: flex;
+}
+.right-column{
+	width: 25%; 
+	padding: 7px;
+	margin-left: 20px;
+	text-align: center; 
+	border: solid 1px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:link, a:visited, a:active {
+	text-decoration:none;
+}

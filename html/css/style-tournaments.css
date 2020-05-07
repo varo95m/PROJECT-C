@@ -1,0 +1,22 @@
+.table-container{
+	margin: auto; 
+	width: 1100px;
+}
+.table-container-navbar{
+	background-color: #181818;
+	color: black;
+	width: 70%;
+	margin-right: 30px ;
+	border:solid 1px white;
+	height:50px; 
+	display: flex;
+}
+.table-container-navbar-item{
+	width: 33%;
+	line-height: 50px;
+		color:#FF4655;
+}
+.sub-container{
+	display: flex; 
+	width: 100%;
+}
